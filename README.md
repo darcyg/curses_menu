@@ -8,6 +8,8 @@ It can make menu.
 $ pip install pyqt5
 $ pip install curses
 ```
+##### curses download from here:
+https://www.lfd.uci.edu/~gohlke/pythonlibs/#curses
 
 ### Example
 
