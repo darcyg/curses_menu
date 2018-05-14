@@ -14,11 +14,11 @@ https://www.lfd.uci.edu/~gohlke/pythonlibs/#curses
 ### Example
 
 ```python
-from curses_menu import *
 
-# write your items in a list
-items = ['home', 'contact', 'exit']
-choose = menu(items, x_co=5, y_co=5, box=False)
+>>> from curse_menu import Menu
+>>> mymenu = Menu()
+>>> items = ['Home','Contact','Exit']
+>>> choose = mymenu.menu(items,x_co=5,y_co=5,box=False)
 # x_co, y_co and box are optionals
 
 if choose == 1:
